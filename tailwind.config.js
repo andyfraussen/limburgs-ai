@@ -6,7 +6,14 @@ module.exports = {
         "./resources/**/*.vue",
     ],
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                'limburg-yellow': '#FEDD00',
+                'limburg-green': '#00A652',
+                'limburg-red': '#E2001A',
+                'limburg-blue': '#0081C6',
+            }
+        }
     },
     plugins: [],
 }
